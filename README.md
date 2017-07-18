@@ -99,6 +99,6 @@ React、immutable、Redux，是互相独立的，但一套成熟的解决方案�
 
 2.  vdom的存在意义。
 
-    首先我想到是React官网为React Native而"Learn Once, Write Anywhere"。在内存维护一套virtualDom，最大的好处是说，思维不再受限制与浏览器运行时，你可以在多平台Node and power mobile apps，使用同套技术栈，你所关心的就是virtual Dom的状态，至于virtual Dom和Real Dom的映射关系，开发人员便可不用关心，实现跨端。
+    首先我想到是React官网为React Native写的标语"Learn Once, Write Anywhere"。在内存维护一套virtualDom，最大的好处是说，思维不再受限制于浏览器运行时，你可以在多平台Node and power mobile apps，使用同套技术栈，你所关心的就是virtual Dom的状态，至于virtual Dom和Real Dom的映射关系，开发人员便可不用关心，实现跨端。
 
     但我想说的是virtual Dom的效率一定不如你手动操作真实的dom快，一定的⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄
